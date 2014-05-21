@@ -1,0 +1,53 @@
+@font-face {
+    font-family: cdb;
+    src: url(fonts/cdb.ttf);
+}
+@font-face {
+    font-family: cd;
+    src: url(fonts/cd.ttf);
+}
+
+body {
+    margin: auto;
+}
+
+header {
+    border: 2px solid black;
+    background-image: url("images/redpent.jpg");
+}
+
+header p a {
+    text-decoration: none;
+}
+
+#title {
+    font-family: cdb;
+    font-size: 40px;
+    color: white;
+    padding-left: 20px;
+}
+
+#subtitle {
+    font-family: cd;
+    font-size: 30px;
+    color: white;
+}
+
+#menu {
+    background-color: black;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#menu ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#menu ul li {
+    display: inline;
+    padding: 50px;
+}
