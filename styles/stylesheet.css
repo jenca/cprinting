@@ -16,32 +16,34 @@ header {
     background-image: url("images/redpent.jpg");
 }
 
+header p {
+    margin-bottom: 30px;
+}
+
 header p a {
     text-decoration: none;
 }
 
 #title {
     font-family: cdb;
-    font-size: 40px;
+    font-size: 50px;
     color: white;
-    padding-left: 20px;
+    padding-left: 10px;
 }
 
 #subtitle {
     font-family: cd;
-    font-size: 30px;
+    font-size: 40px;
     color: white;
 }
 
 #menu {
-    background-color: black;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.2);
 }
 
 #menu ul {
     list-style: none;
     margin: 0px;
-    padding: 0px;
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
@@ -50,4 +52,14 @@ header p a {
 #menu ul li {
     display: inline;
     padding: 50px;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    font-family: cd;
+}
+#menu ul li a:hover {
+    letter-spacing: 1px;
 }
