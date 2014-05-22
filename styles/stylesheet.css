@@ -19,6 +19,11 @@ header {
     background-image: url("images/redpent.jpg");
 }
 
+header p {
+    margin: 0px;
+    padding-top: 10px;
+}
+
 header p a {
     text-decoration: none;
 }
