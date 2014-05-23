@@ -6,9 +6,10 @@
     font-family: cd;
     src: url(fonts/cd.ttf);
 }
+
 /*title & menu styling */
 body {
-    margin: 0 auto;
+    margin: 0;
 }
 
 header {
@@ -18,7 +19,8 @@ header {
 
 header p {
     margin: 0px;
-    padding-top: 10px;
+    padding-top: 20px;
+    padding-left: 10px;
 }
 
 header p a {
@@ -29,7 +31,6 @@ header p a {
     font-family: cdb;
     font-size: 50px;
     color: white;
-    padding-left: 20px;
 
 }
 
@@ -66,18 +67,27 @@ header p a {
 /*end title & menu styling */
 
 #content {
-    margin: 0px;
+    margin: auto;
+    text-align: center;
 }
 
 #greeting{
     border: 2px solid black;
+    width: 250px;
+    margin-right: 30px;
+    display: inline-block;
 }
 
 #uses {
     border: 2px solid green;
+    width: 250px;
+    margin-right: 30px;
+    display: inline-block;
 }
 
 #decisions {
     border: 2px solid red;
+    width: 250px;
+    display: inline-block;
 }
 
