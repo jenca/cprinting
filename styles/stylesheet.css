@@ -68,26 +68,25 @@ header p a {
 
 #content {
     margin: auto;
-    text-align: center;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
 }
 
 #greeting{
     border: 2px solid black;
     width: 250px;
     margin-right: 30px;
-    display: inline-block;
 }
 
 #uses {
     border: 2px solid green;
     width: 250px;
     margin-right: 30px;
-    display: inline-block;
 }
 
 #decisions {
     border: 2px solid red;
     width: 250px;
-    display: inline-block;
 }
 
