@@ -1,99 +1,64 @@
 @font-face {
-    font-family: cdb;
-    src: url(fonts/cdb.ttf);
-}
-@font-face {
-    font-family: cd;
-    src: url(fonts/cd.ttf);
-}
-
-/*title & menu styling */
-html {
-    height: 100%;
+    font-family: long;
+    src: url("fonts/long.ttf");
 }
 
 body {
-    margin: 0;
-    height: 100%;
+    margin: auto;
 }
 
 header {
-    background-image: url("images/redpent.jpg");
-    margin: 0px;
-    width: 450px;
-    height: 100%;
+    background-image: url("images/headerbg.jpg");
+    width: 100%;
 }
 
 header p {
-    margin: 0px;
-    padding: 20px;
+    margin: auto;
 }
 
 header p a {
+    padding: 1em 0em 1em 1em;
     text-decoration: none;
+    color: #FFF;
+    font-family: long;
 }
 
 #title {
-    font-family: cdb;
-    font-size: 50px;
-    color: white;
-
+    font-size: 5em;
 }
 
 #subtitle {
-    font-family: cd;
-    font-size: 45px;
-    color: white;
-    padding: 20px;
+    font-size: 4em;
+}
+
+#msg {
+    font-family: Verdana;
+    font-size: 3em;
+    padding-left: 1em;
+}
+
+#answer {
+    font-family: Helvetica;
+    font-size: 2em;
+    padding-left: 3em;
 }
 
 #menu {
-    background: rgba(0, 0, 0, 0.2);
-    vertical-align: center;
-}
-
-#menu ul {
-    list-style: none;
-}
-
-#menu ul li {
-    padding: 30px;
-}
-
-#menu ul li a {
-    text-decoration: none;
-    font-size: 18px;
-    color: white;
-    font-family: cd;
-}
-/*end title & menu styling */
-
-
-
-
-
-/*
-#content {
-    margin: auto;
     display: flex;
-    align-items: flex-start;
-    justify-content: center;
 }
 
-#greeting{
+#menu div {
     border: 2px solid black;
-    width: 250px;
-    margin-right: 30px;
+    height: 10em;
+    width: 20em;
+    text-align: center;
+    background-image: url("images/menubg/crossword.png");
 }
 
-#uses {
-    border: 2px solid green;
-    width: 250px;
-    margin-right: 30px;
+#menu div p {
+    margin: 0 auto;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 8em;
 }
 
-#decisions {
-    border: 2px solid red;
-    width: 250px;
-}
-*/
